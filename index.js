@@ -8,8 +8,8 @@ if (configFilePath) {
   try {
     config = require(configFilePath);
   } catch(e) {
-    console.log('Cannot load '+configFilePath);
-    process.exit(1);  
+    console.log('Cannot load ' + configFilePath);
+    process.exit(1);
   }
 }
 
